@@ -45,7 +45,7 @@ prompt=[
 
 # Streamlit app
 st.set_page_config(page_title="Retrieve SQL Data via Simple Text")
-st.header("App to retrieve to sql data")
+st.header("App to retrieve SQL data")
 question=st.text_input("Input :", key="input")
 submit=st.button("Fetch")
 
